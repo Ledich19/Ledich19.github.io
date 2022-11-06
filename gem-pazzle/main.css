@@ -1,0 +1,187 @@
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/container/container.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 5px;
+  height: 100vh;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/buttonsPanel/buttonsPanel.scss ***!
+  \**************************************************************************************************************************************************************************************************************/
+.buttonsPanel {
+  flex-wrap: wrap;
+  max-width: 420px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+}
+.buttonsPanel__shuffle, .buttonsPanel__stop, .buttonsPanel__save, .buttonsPanel__results, .buttonsPanel__audio {
+  min-height: 50px;
+  min-width: 50px;
+  padding: 7px;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: monospace;
+  color: white;
+  background: #0d9095;
+  cursor: pointer;
+}
+.buttonsPanel__shuffle:hover, .buttonsPanel__stop:hover, .buttonsPanel__save:hover, .buttonsPanel__results:hover, .buttonsPanel__audio:hover {
+  background: #0b767a;
+}
+.buttonsPanel__shuffle:disabled, .buttonsPanel__stop:disabled, .buttonsPanel__save:disabled, .buttonsPanel__results:disabled, .buttonsPanel__audio:disabled {
+  background: rgb(159, 158, 158);
+}
+.buttonsPanel__shuffle {
+  flex: 1 1;
+}
+.buttonsPanel__audio {
+  background: #90e690;
+  border: solid 2px #0b767a;
+  font-weight: bold;
+}
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/infoPanel/infoPanel.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+.infoPanel {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/winList/winList.scss ***!
+  \****************************************************************************************************************************************************************************************************/
+.winList {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.772);
+  color: white;
+}
+.winList__head, .winList__row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+}
+.winList__head {
+  margin-top: 10px;
+}
+.winList__panel {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.winList__close-btn {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.2rem;
+  background: white;
+}
+.winList__title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.winList__item {
+  flex-basis: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/field/field.scss ***!
+  \************************************************************************************************************************************************************************************************/
+#field {
+  margin-top: 10px;
+  border: solid 5px black;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+#winMessage {
+  padding-top: 10%;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.708);
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(8, 198, 8);
+}
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/sizePanel/sizePanel.scss ***!
+  \********************************************************************************************************************************************************************************************************/
+.sizePanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sizePanel__text {
+  margin-top: 10px;
+}
+.sizePanel__text ol {
+  margin-top: 5px;
+}
+.sizePanel .sizePanel__size {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.sizePanel .sizePanel__btn-size {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0d9095;
+  text-decoration: none;
+}
+.sizePanel .sizePanel__btn-size:hover {
+  color: #096568;
+}
+
+/*# sourceMappingURL=main.css.map*/
