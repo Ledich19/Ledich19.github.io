@@ -1,21 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d261c56f.css",
-    "main.js": "/static/js/main.646925f1.js",
-    "static/media/my_photo.jpg": "/static/media/my_photo.82ff7788d25452b1c837.jpg",
-    "static/media/onlineShop.png": "/static/media/onlineShop.fac0eac48451023fea34.png",
-    "static/media/certificate-fullstack.png": "/static/media/certificate-fullstack.e0e2a008e322a62c1768.png",
-    "static/media/certificate-graphql.png": "/static/media/certificate-graphql.be43bebfcc89d42376b0.png",
-    "static/media/Project_portfolio.jpg": "/static/media/Project_portfolio.1e8c2250efb465db451f.jpg",
-    "static/media/Project_01_img.jpg": "/static/media/Project_01_img.3d0dc06ba255eaea393f.jpg",
-    "static/media/Project_JOHN.jpg": "/static/media/Project_JOHN.782e4515a47d1f2faf62.jpg",
-    "static/media/Screenshot_149.png": "/static/media/Screenshot_149.d6782cfcc4042944e548.png",
-    "index.html": "/index.html",
-    "main.d261c56f.css.map": "/static/css/main.d261c56f.css.map",
-    "main.646925f1.js.map": "/static/js/main.646925f1.js.map"
+    "main.css": "/timeRepo/static/css/main.80af2661.css",
+    "main.js": "/timeRepo/static/js/main.2bd08a9d.js",
+    "index.html": "/timeRepo/index.html",
+    "main.80af2661.css.map": "/timeRepo/static/css/main.80af2661.css.map",
+    "main.2bd08a9d.js.map": "/timeRepo/static/js/main.2bd08a9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d261c56f.css",
-    "static/js/main.646925f1.js"
+    "static/css/main.80af2661.css",
+    "static/js/main.2bd08a9d.js"
   ]
 }
